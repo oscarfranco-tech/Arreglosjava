@@ -134,31 +134,24 @@ Durante el desarrollo del proyecto se aplicaron los siguientes conceptos:
 
 ### Menú principal
 
-![Menú principal](capturas/menu.png)
 
 ### Vector completo
 
-![Vector completo](capturas/vector-completo.png)
 
 ### Búsqueda de un número
 
-![Búsqueda de un número](capturas/busqueda.png)
 
 ### Número mayor y menor
 
-![Mayor y menor](capturas/mayor-menor.png)
 
 ### Múltiplos de X
 
-![Múltiplos](capturas/multiplos.png)
 
 ### Suma de los valores
 
-![Suma](capturas/suma.png)
 
 ### Valores por encima del promedio
 
-![Promedio](capturas/promedio.png)
 
 ---
 
@@ -166,7 +159,7 @@ Durante el desarrollo del proyecto se aplicaron los siguientes conceptos:
 
 En el siguiente enlace se encuentra el video de sustentación individual del proyecto:
 
-**[Ver video de sustentación](PEGAR_AQUI_EL_ENLACE_DEL_VIDEO)**
+**https://drive.google.com/file/d/1mwYdb0uA3t74xRMRfKKTqY6chZmT_zVx/view?usp=drive_link**
 
 ---
 
@@ -174,7 +167,7 @@ En el siguiente enlace se encuentra el video de sustentación individual del pro
 
 El código fuente del proyecto se encuentra disponible en el siguiente repositorio público de GitHub:
 
-**[Ver repositorio en GitHub](PEGAR_AQUI_EL_ENLACE_DEL_REPOSITORIO)**
+**https://github.com/oscarfranco-tech/Arreglosjava.git**
 
 ---
 
