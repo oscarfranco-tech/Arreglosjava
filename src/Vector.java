@@ -1,4 +1,3 @@
-
 /*
  * ============================================================
  * ARCHIVO: Vector.java
@@ -7,7 +6,7 @@
  * ============================================================
  *
  * Esta clase contiene las operaciones necesarias para trabajar
- * con un vector de 15 números enteros.
+ * con un vector de números enteros.
  *
  * PUNTOS DE LA ACTIVIDAD:
  *
@@ -23,7 +22,7 @@
 public class Vector extends Arreglo {
 
     /*
-     * Arreglo donde se almacenan los datos del vector.
+     * Arreglo donde se almacenan los datos.
      */
     private int[] objDatos;
 
@@ -104,7 +103,7 @@ public class Vector extends Arreglo {
     public void mostrar() {
 
         System.out.print(
-            "VECTOR COMPLETO: ["
+            "VECTOR COMPLETO : ["
         );
 
         for (int i = 0; i < objDatos.length; i++) {
@@ -113,10 +112,6 @@ public class Vector extends Arreglo {
                 objDatos[i]
             );
 
-            /*
-             * Colocamos un espacio entre los números,
-             * pero evitamos dejar un espacio al final.
-             */
             if (i < objDatos.length - 1) {
 
                 System.out.print(" ");
@@ -243,7 +238,7 @@ public class Vector extends Arreglo {
         for (int i = 0; i < objDatos.length; i++) {
 
             /*
-             * Si el residuo es cero, el número es múltiplo.
+             * Si el residuo es cero, es múltiplo.
              */
             if (objDatos[i] % numeroX == 0) {
 
@@ -343,6 +338,7 @@ public class Vector extends Arreglo {
          */
         Vector objNuevoVector = new Vector();
 
+
         /*
          * Creamos el arreglo con el tamaño exacto
          * de los valores encontrados.
@@ -355,6 +351,7 @@ public class Vector extends Arreglo {
          * del nuevo vector.
          */
         int posicion = 0;
+
 
         /*
          * Recorremos nuevamente el vector original.

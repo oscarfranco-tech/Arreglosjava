@@ -129,12 +129,10 @@ public class Principal {
                         "--- CREAR Y LLENAR VECTOR ---"
                     );
 
-                    
                     objVector.crear(15);
 
                     objVector.ingresarDatos();
 
-                    
                     System.out.println();
                     System.out.println(
                         "El vector fue llenado correctamente."
@@ -325,7 +323,7 @@ public class Principal {
 
                     System.out.println();
                     System.out.println(
-                        " VALORES POR ENCIMA DEL PROMEDIO "
+                        "--- VALORES POR ENCIMA DEL PROMEDIO ---"
                     );
 
                     if (vectorCreado == false) {
@@ -440,5 +438,5 @@ public class Principal {
 
     } // Fin del método main
 
-} 
+} // Fin de la clase Principal
 
