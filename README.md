@@ -2,15 +2,37 @@
 
 ## 1. Objetivo
 
-Desarrollar un programa en Java que permita crear y manipular un vector de 15 números enteros, aplicando conceptos de programación como arreglos, ciclos, condicionales, métodos, herencia y entrada de datos mediante `Scanner`.
+Crear un Vector de Números Enteros:
 
-El programa permite ingresar valores entre 10 y 100 y realizar diferentes operaciones sobre los datos almacenados en el vector.
+Escribir un programa que cree un vector de 15 números enteros.
+Que solicite al usuario que ingrese los valores para llenar el vector con números entre 10 y 100, si el número esta fuera de este rango debe mostrar que esta fuera del rango y volver a solicitar el numero hasta que se llene el vector.
+Cuando esté lleno el Vector muestra los valores en la consola.
+Buscar un Valor en el Vector:
+Solicita al usuario que ingrese un número para buscar en el vector.
+sa un ciclo para buscar el número en el vector.
+Si el número se encuentra, muestra la posición en la que se encuentra.
+Si el número no se encuentra, muestra un mensaje indicando que no está en el vector.
+Determinar el Mayor y el Menor Valor dentro del vector:
+Utiliza un ciclo para recorrer el vector y determinar cuál es el número mayor y cuál es el menor, podrías usar el mismo ciclo que busca el número del punto anterior para determinar esto.
+Muestra el número mayor y el número menor en la consola.
+Identificar Múltiplos de un Número:
+Solicita al usuario que ingrese un número X.
+Usa un ciclo para identificar y mostrar todos los elementos del vector que son múltiplos de X.
+Si no hay múltiplos, muestra un mensaje indicando que no hay múltiplos de X en el vector.
+Calcular la Suma de Todos los Valores:
+Usa un ciclo para calcular la suma de todos los números en el vector.
+Muestra la suma total en la consola.
+Crear un Nuevo Vector con Números por Encima del Promedio:
+Calcula el promedio de los valores del vector.
+Crea un nuevo vector que contenga solo los números del vector original que son mayores que el promedio.
+Muestra los valores de este nuevo vector en la consola e indica cuantos números están por encima del promedio.
+Si no hay números mayores que el promedio, muestra un mensaje indicando esto.
 
 ---
 
 ## 2. Organización del proyecto
 
-El proyecto está organizado en cuatro clases:
+Utilicé la carpeta de las clases sincrónicas para usarlas como base para el proyecto y como se puede ver estan ordenadas de esta manera:
 
 
 src/
@@ -22,7 +44,7 @@ src/
 
 ### Arreglo.java
 
-Es la clase padre del proyecto. Contiene el objeto `Scanner`, utilizado para realizar la entrada de datos desde la consola.
+Es la clase padre del proyecto. Contiene el objeto `Scanner`, utilizado para realizar la entrada de datos desde la consola.Las clases hijas podran usar `Scanner`sin escribir mas código innecesario.
 
 ### Vector.java
 
@@ -44,15 +66,11 @@ Entre sus funcionalidades se encuentran:
 
 ### Matriz.java
 
-Es una clase hija de `Arreglo` que permite trabajar con arreglos bidimensionales.
-
-Esta clase se conserva como parte de la estructura trabajada durante el curso, aunque no se utiliza en el menú de esta actividad debido a que los requerimientos están enfocados en el manejo de vectores.
+Es una clase hija de `Arreglo` que permite trabajar con filas y columnas para almacenar los datos 
 
 ### Principal.java
 
-Contiene el método `main` y el menú principal del programa.
-
-Desde esta clase el usuario puede seleccionar las diferentes operaciones disponibles para trabajar con el vector.
+Contiene el menú principal que permitirá que el usuario pueda acceder a las opciones para hacer las diferentes operaciones con vectores
 
 ---
 
@@ -110,27 +128,8 @@ Finaliza la ejecución del programa.
 
 ---
 
-## 4. Conceptos de programación utilizados
 
-Durante el desarrollo del proyecto se aplicaron los siguientes conceptos:
-
-* Clases y objetos.
-* Herencia mediante `extends`.
-* Clase padre y clases hijas.
-* Arreglos unidimensionales.
-* Arreglos bidimensionales.
-* Ciclo `for`.
-* Ciclo `do while`.
-* Condicionales `if`.
-* Variables y tipos de datos.
-* Métodos.
-* Retorno de valores.
-* Operador módulo `%`.
-* Entrada de datos mediante `Scanner`.
-
----
-
-## 5. Capturas de pantalla
+## 4. Capturas de pantalla
 
 ### Menú principal
 
@@ -155,7 +154,7 @@ Durante el desarrollo del proyecto se aplicaron los siguientes conceptos:
 
 ---
 
-## 6. Video de sustentación
+## 5. Video de sustentación
 
 En el siguiente enlace se encuentra el video de sustentación individual del proyecto:
 
@@ -163,7 +162,7 @@ En el siguiente enlace se encuentra el video de sustentación individual del pro
 
 ---
 
-## 7. Repositorio
+## 6. Repositorio
 
 El código fuente del proyecto se encuentra disponible en el siguiente repositorio público de GitHub:
 
@@ -171,11 +170,10 @@ El código fuente del proyecto se encuentra disponible en el siguiente repositor
 
 ---
 
-## 8. Autor
+## 7. Autor
 
 **Nombre:** Oscar Humberto Franco Montealegre
 
 **Programa:** estructura de datos
-
 
 **Evidencia de aprendizaje:** Manejo de vectores en Java
